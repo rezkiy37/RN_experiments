@@ -29,6 +29,7 @@ import Square from './src/components/animated/Square';
 import Pressable from './src/components/toLearn/Pressable';
 import SectionList from './src/components/toLearn/SectionList';
 import OrderItem from './src/components/swipeable/OrderItem';
+import Segmented from './src/components/tabs/Segmented';
 
 const Stack = createStackNavigator()
 
@@ -51,6 +52,8 @@ function HomeScreen({ navigation }: any) {
       {/* <Square /> */}
 
       {/* <Pressable /> */}
+
+      <Segmented />
 
       <OrderItem />
 
