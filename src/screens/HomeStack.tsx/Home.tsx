@@ -2,12 +2,16 @@ import React from 'react'
 import { Text, TouchableOpacity, StyleSheet, View, Button } from 'react-native'
 import Container from '../../components/screen/Container'
 import { EDrawerStacks, EHomeScreens, ESettingsScreens, INavigationProps } from '../../types/navigation'
-import Animated from 'react-native-reanimated';
-import BottomSheet from 'reanimated-bottom-sheet';
+import BottomSheet from 'reanimated-bottom-sheet'
+
 
 export default (({
   navigation
 }) => {
+
+  (async () => {
+    const a = await import('@babel/core')
+  })
 
   const settingsHandler = (): void => {
     navigation.navigate(EDrawerStacks.SettingsStack, {
