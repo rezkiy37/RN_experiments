@@ -11,6 +11,8 @@ import SettingsStack from './SettingsStack'
 
 console.log('test branch')
 
+//1st after merge (test branch)
+
 export default (() => {
 
   const DrawerNavigation = createDrawerNavigator()
