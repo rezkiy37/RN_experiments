@@ -9,6 +9,8 @@ import { EDrawerStacks, INavigationProps } from '../types/navigation'
 import HomeStack from './HomeStack'
 import SettingsStack from './SettingsStack'
 
+//master 1 after merge
+
 export default (() => {
 
   const DrawerNavigation = createDrawerNavigator()
