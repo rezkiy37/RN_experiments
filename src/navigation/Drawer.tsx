@@ -9,7 +9,7 @@ import { EDrawerStacks, INavigationProps } from '../types/navigation'
 import HomeStack from './HomeStack'
 import SettingsStack from './SettingsStack'
 
-
+console.log('test branch')
 
 export default (() => {
 
